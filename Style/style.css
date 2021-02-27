@@ -2,5 +2,9 @@
 	color: blue;
 }
 .bodyTextA{
-	font-size: 80%;
+	font-size: 12px;
+}
+#frame1{
+	width: 25%;
+	height: 25%;
 }
