@@ -25,15 +25,6 @@ h2{
 	height: 25%;
 	padding: ;
 }
-.fa {
-  font-size: 50px;
-  cursor: pointer;
-  user-select: none;
-}
-
-.fa:hover {
-  color: darkblue;
-}
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
