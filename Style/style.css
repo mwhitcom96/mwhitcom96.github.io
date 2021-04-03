@@ -14,12 +14,3 @@
 	height: 25%;
 	padding: ;
 }
-.fa {
-  font-size: 50px;
-  cursor: pointer;
-  user-select: none;
-}
-
-.fa:hover {
-  color: darkblue;
-  }
