@@ -7,3 +7,7 @@ function countDown() {
    var newVal = currentVal - 1;
    document.getElementById("countDownButton").innerHTML = newVal;
 }
+
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
