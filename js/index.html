@@ -36,13 +36,13 @@ style="display:none">
 
 <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i> 
 
-<div id="tabs">
+<div class="toggler" id="tabs">
   <ul>
     <li><a href="#tabs-1">Nunc tincidunt</a></li>
     <li><a href="#tabs-2">Proin dolor</a></li>
     <li><a href="#tabs-3">Aenean lacinia</a></li>
   </ul>
-  <div id="tabs-1">
+  <div class="ui-widget-content ui-corner-all" id="tabs-1">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -50,7 +50,7 @@ style="display:none">
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
-  <div id="tabs-2">
+  <div class="ui-widget-content ui-corner-all" id="tabs-2">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -58,7 +58,7 @@ style="display:none">
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
-  <div id="tabs-3">
+  <div class="ui-widget-content ui-corner-all" id="tabs-3">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -67,6 +67,8 @@ style="display:none">
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 </div>
+
+<button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
 
 <p>When you are done click here!</p>
 <input type="button" value="Back" onclick="goBack()">
