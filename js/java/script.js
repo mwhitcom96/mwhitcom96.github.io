@@ -13,3 +13,6 @@ function countDown() {
 function myFunction(x) {
   x.classList.toggle("fa-thumbs-down");
 }
+
+document.getElementById("demo").innerHTML = 
+"The full URL of this page is:<br>" + window.location.href;
