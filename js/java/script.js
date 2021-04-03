@@ -46,3 +46,6 @@ $( function() {
  
     $( "button" ).button();
   } );
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
