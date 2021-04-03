@@ -1,8 +1,14 @@
 #awsomeTitle{
 	color: blue;
+	text-align: center;
+	font-size: 5em;
+  padding: 5px 20px;
+  font-weight: 700;
 }
 .bodyTextA{
 	font-size: 12px;
+	position: relative;
+	text-align: center;
 }
 #frame1{
 	width: 35%;
